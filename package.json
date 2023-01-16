@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --mode=production",
     "preview": "vite preview",
     "test": "vitest",
-    "start": "railway run"
+    "start": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
